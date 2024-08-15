@@ -1,7 +1,7 @@
 # RUXPABOT
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 <p align="center">
-<img src="https://imgur.com/a/HpJEpgc"/> 
+<img src="[https://imgur.com/a/HpJEpgc](https://imgur.com/a/HpJEpgc)"/> 
 <p align="center">
   <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=EB+Garamond&weight=800&size=28&duration=4000&pause=1000&random=false&width=435&lines=+_____VENOM+2_____;WHATSAPP+CRASH+x+BUG+BOT;DEVELOPED+BY+DAVID+CYRIL;REALESE+DATE+21%2F6%2F2024." alt="Typing SVG" /></a>
 </p>
@@ -19,36 +19,7 @@
 
 </br>
 
-#### COPY THESE COMMANDS AND PASTE IF YOU TRYING TO DEPLOY [VENOM-2](https://github.com/DeeCeeXxx/Venom-2) ON ANY TERMINAL
-```
-sudo apt -y update && sudo apt -y upgrade
-```
-```
-sudo apt -y install git ffmpeg curl
-```
-```
-curl -fsSL https://deb.nodesource.com/setup_20.x -o nodesource_setup.sh
-```
-```
-sudo -E bash nodesource_setup.sh
-```
-```
-sudo apt-get install -y nodejs
-```
-```
-sudo npm install -g yarn
-```
-```
-sudo yarn global add pm2
-```
-```
-git clone https://github.com/type-your-username-here/Venom-2
-```
-```
-cd Venom-2
-yarn install 
-npm start
-```
+#### COPY THESE COMMANDS AND PASTE IF YOU TRYING TO DEPLOY
  
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
