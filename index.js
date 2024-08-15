@@ -19,7 +19,7 @@ const axios = require('axios')
 const { File } = require('megajs')
 const prefix = '.'
 
-const ownerNumber = ['94779415698']
+const ownerNumber = ['94723423602']
 
 //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/auth_info_baileys/creds.json')) {
@@ -39,14 +39,14 @@ const port = process.env.PORT || 8000;
 //=============================================
 
 async function connectToWA() {
-console.log("Connecting wa bot 🧬...");
+console.log("Connecting pm bot 😶🚫...");
 const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/auth_info_baileys/')
 var { version } = await fetchLatestBaileysVersion()
 
 const conn = makeWASocket({
         logger: P({ level: 'silent' }),
         printQRInTerminal: false,
-        browser: Browsers.macOS("Firefox"),
+        browser: Browsers.macOS("Chrome"),
         syncFullHistory: true,
         auth: state,
         version
@@ -59,7 +59,7 @@ if (lastDisconnect.error.output.statusCode !== DisconnectReason.loggedOut) {
 connectToWA()
 }
 } else if (connection === 'open') {
-console.log('😼 Installing... ')
+console.log('👻🧛 Installing... ')
 const path = require('path');
 fs.readdirSync("./plugins/").forEach((plugin) => {
 if (path.extname(plugin).toLowerCase() == ".js") {
@@ -67,11 +67,49 @@ require("./plugins/" + plugin);
 }
 });
 console.log('Plugins installed successful ✅')
-console.log('Bot connected to whatsapp ✅')
+console.log('Bot connected to Ravidu x Podda ✅')
 
-let up = `Wa-BOT connected successful ✅\n\nPREFIX: ${prefix}`;
+let up = `RU-X-PA-BOT connected successful ✅\n\nPREFIX: ${prefix}`;
 
-conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://telegra.ph/file/900435c6d3157c98c3c88.jpg` }, caption: up })
+conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://telegra.ph/file/4d69c1e11007840a8c048.jpg` }, caption: up })
+  
+  ┌──────────────────────
+  ├ *`PREFIX:`* .
+  ├ *`POWER:`* on
+  ├ *`LANGUAGE:`* en
+  ├ *`BUTTONS:`* false
+  ├ *`WORK_TYPE:`* public
+  ├ *`ANTI_DELETE:`* false
+  ├ *`ANTI_VIEW_ONCE:`* false
+  ├ *`AUTO_VOICE:`* false
+  ├ *`AUTO_REACT:`* false
+  ├ *`COMPOSING:`* true
+  ├ *`USER_REACT:`* 🎀
+  ├ *`USER_REACT_STATUS:`* false
+  ├ *`AUTO_STICKER:`* false
+  ├ *`AUTO_RESTART:`* false
+  ├ *`READ_MESSAGE:`* commands
+  ├ *`ALWAYS_ONLINE:`* true
+  ├ *`ANTI_BAD:`* false
+  ├ *`ANTI_BAD_ACTION:`* delete
+  ├ *`ANTI_LINK:`* false
+  ├ *`ANTI_LINK_VALUE:`* Mage whatsapp mmm...
+  ├ *`ANTI_LINK_ACTION:`* delete
+  ├ *`ANTI_BOT:`* false
+  ├ *`AUTO_READ_STATUS:`* true
+  ├ *`MAX_SIZE:`* 300
+  ├ *`SUDO:`* 94723423602
+  ├ *`LOGO:`* https://telegra.ph/file/4d69c1e11007840a8c048.jpg
+  ├ *`BLOCKED_CMDS:`* noBannedCmds
+  ├ *`AUTO_INBOX_BLOCK:`* false
+  ├ *`BLOCKED_GROUPS:`* 120363177124260420@g.us,120363277124260420@g.us
+  ├ *`ALIVE_MESSAGE:`* 😉
+  └──────────────────────
+  
+  📂 *GITHUB_AUTH_TOKEN Rate limit remaining:-* `4892`	
+  
+  📖 Use the *.apply*  *.settings* and *.remove* commands to change these settings.
+  ` }, caption: up })
 
 }
 })
