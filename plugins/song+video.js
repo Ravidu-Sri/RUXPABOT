@@ -17,9 +17,7 @@ const data = search.videos[0];
 const url = data.url
 
 let desc = `
-
 ⛔ *RUXPABOT YOUTUBE SONG DOWNLOAD* ⛔
-
 
 titel: ${data.titel}
 description: ${data.description}
