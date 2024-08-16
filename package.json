@@ -4,9 +4,9 @@
   "description": "A WhatsApp bot created using Node.js",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name PODDA-MD",
-    "stop": "pm2 stop PODDA-MD",
-    "restart": "pm2 restart PODDA-MD"
+    "start": "pm2 start index.js --deep-monitoring --attach --name RUXPABOT",
+    "stop": "pm2 stop RUXPABOT",
+    "restart": "pm2 restart RUXPABOT"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "6.6.0",
