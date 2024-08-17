@@ -1,6 +1,8 @@
 const {cmd , commands} = require('../command')
 const fg = require('api-dylux')
 const yt = require('yt-search')
+
+
 cmd({
     pattern: "song",
     desc: "download songs",
@@ -15,9 +17,7 @@ const data = search.videos[0];
 const url = data.url
 
 let desc = `
-
 ⛔ *RUXPABOT YOUTUBE SONG DOWNLOAD* ⛔
-
 
 titel: ${data.titel}
 description: ${data.description}
@@ -39,7 +39,8 @@ await conn.sendMessage(from,{audio: {url:downloadUrl},mimetype:"audio/mpeg"},{qu
   
 
 
-  
+
+    
 }catch(e){
 conosle.log(e)
 reply(`${e}`)
