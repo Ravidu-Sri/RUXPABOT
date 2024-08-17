@@ -42,9 +42,9 @@ await conn.sendMessage(from,{audio: {url:downloadUrl},mimetype:"audio/mpeg"},{qu
 
     
 }catch(e){
-conosle.log(e)
+console.log(e)
 reply(`${e}`)
 }
- })
+})
   
 
