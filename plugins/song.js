@@ -32,7 +32,7 @@ await conn.sendMessage(from,{imge:{url: data.thumbnail},caption:desc},{quoted:me
 //download audio
 
 let down = await fg.yta(url)
-let downloadUrl = down.di_url
+let downloadUrl = down.dl_url
 
 //send audio message
 await conn.sendMessage(from,{audio: {url:downloadUrl},mimetype:"audio/mpeg"},{quoted:mek});
