@@ -11,7 +11,7 @@ cmd({
 },
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
-if(!q) return reply("*Please give me url or title 🎷😑...*")
+if(!q) return reply("*Please give me url or title 🎷🧛😑...*")
 const search = await yts(q)
 const data = search.videos[0];
 const url = data.url
@@ -27,7 +27,7 @@ views: ${data.views}
 
 MADE BY PODDA MODz 😗🌹
 `
-await conn.sendMessage(from,{imge:{url: data.thumbnail},caption:desc},{quoted:mek});
+await conn.sendMessage(from,{image:{url: data.thumbnail},caption:desc},{quoted:mek});
 
 //download audio
 
