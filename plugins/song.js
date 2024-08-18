@@ -19,7 +19,7 @@ const url = data.url
 let desc = `
 🎷 *RUXPABOT YOUTUBE SONG DOWNLOAD* 🎷
 
-titel: ${data.titel}
+title: ${data.title}
 description: ${data.description}
 time: ${data.timestamp}
 ago: ${data.ago}
