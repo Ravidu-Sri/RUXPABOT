@@ -9,4 +9,5 @@ SESSION_ID: process.env.SESSION_ID,
 ALIVE_IMG: process.env.AILVE_IMG || "https://telegra.ph/file/4d69c1e11007840a8c048.jpg",   
 AILVE_MSG: process.env.AILVE_MSG || "Holle jjj",
 AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true",
+MODE: process.env.MODE || "public",   
 };
