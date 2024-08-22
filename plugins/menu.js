@@ -52,7 +52,7 @@ let madeMenu = `👋 *Hi ${pushname}*
 
 👨‍💻 *CRATOR BY PODDA MODᴢ* 👨‍💻
 `
-await conn.sendMessage(from,{image:{url:"https://telegra.ph/file/4d69c1e11007840a8c048.jpg"},caption:madeMenu},{quoted:mek})
+await conn.sendMessage(from,{image:{url:"https://telegra.ph/file/0aa53d084024368c3bf14.jpg"},caption:madeMenu},{quoted:mek})
 
 }catch(e){
 console.log(e)
