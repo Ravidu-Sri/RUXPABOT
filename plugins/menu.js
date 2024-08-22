@@ -29,31 +29,25 @@ let madeMenu = `👋 *Hi ${pushname}*
 
 ${menu.download}
 
-
 > *MAIN COMMANDS* 💙|🧸
 
 ${menu.main}
-
 
 > *GROUP COMMANDS* 📢|🦊
 
 ${menu.group}
 
-
 > *OWNER COMMANDS* 👩‍💻|🔊
 
 ${menu.owner}
-
 
 > *CONVERT COMMANDS* 👋|💙
 
 ${menu.convert}
 
-
 > *SEARCH COMMANDS* 🔎|👩‍💻
 
 ${menu.search}
-
 
 *CREATOR BY PODDA MODz 💔👻*
 `
