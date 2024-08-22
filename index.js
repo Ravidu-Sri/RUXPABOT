@@ -71,7 +71,7 @@ console.log('Bot connected to Ravidu x Podda ✅')
 
 let up = `RU-X-PA-BOT connected successful ✅\n\nPREFIX: ${prefix}`;
 
-conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://telegra.ph/file/4d69c1e11007840a8c048.jpg` }, caption: up })
+conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://telegra.ph/file/8bd67d888923904cbaadb.jpg` }, caption: up })
   
 }
 })
