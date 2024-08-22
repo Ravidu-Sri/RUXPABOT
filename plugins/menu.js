@@ -46,7 +46,7 @@ ${memu.convert}
 
 
 > *SEARCH COMMANDS* 🔎|👩‍💻
-${menu.search@}
+${menu.search}
 
 
 *CREATOR BY PODDA MODz 💔👻*
