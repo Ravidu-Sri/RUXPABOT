@@ -42,7 +42,7 @@ ${menu.owner}
 
 
 > *CONVERT COMMANDS* 👋|💙
-${memu.convert}
+${menu.convert}
 
 
 > *SEARCH COMMANDS* 🔎|👩‍💻
