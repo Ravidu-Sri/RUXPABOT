@@ -50,7 +50,7 @@ let madeMenu = `👋 *Hi ${pushname}*
 
  ${menu.search}
 
-👨‍💻🎃 *CRATOR BY PODDA MODᴢ* 🎃👨‍💻
+👨‍💻 *CRATOR BY PODDA MODᴢ* 👨‍💻
 `
 await conn.sendMessage(from,{image:{url:"https://telegra.ph/file/4d69c1e11007840a8c048.jpg"},caption:madeMenu},{quoted:mek})
 
