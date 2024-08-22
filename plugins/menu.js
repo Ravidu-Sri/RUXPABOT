@@ -25,26 +25,34 @@ menu[commands[i].category] += `.${commands[i].pattern}\n`;
 }   
 
 let madeMenu = `👋 *Hi ${pushname}*
-╰┈➤ ᴅᴏᴡɴʟᴏᴀᴅ ᴄᴏᴍᴍᴀɴᴅs
- |
- |${menu.download}
-╰┈➤ ᴍᴀɪɴ ᴄᴏᴍᴍᴀɴᴅs
- |
- |
- |
- |${menu.main}
-╰┈➤ ɢʀᴏᴜᴘ ᴄᴏᴍᴍᴀɴᴅs
- |${menu.group}
-╰┈➤ ᴏᴡɴᴇʀ ᴄᴏᴍᴍᴀɴᴅs
- |${menu.owner}
-╰┈➤ ᴄᴏɴᴠᴇʀᴛ ᴄᴏᴍᴍᴀɴᴅs
- |${menu.convert}
-╰┈➤sᴇᴀʀᴄʜ ᴄᴏᴍᴍᴀɴᴅs
- |${menu.search}
 
-~~~*𝐶𝑟𝑒𝑎𝑡𝑜𝑟 𝑏𝑦 𝑃𝑜𝑑𝑑𝑎 𝑀𝑜𝑑𝑧*~~~
+> ᴅᴏᴡɴʟᴏᴀᴅ ᴄᴏᴍᴍᴀɴᴅs 👨‍💻|⬇️
+
+ ${menu.download}
+ 
+> ᴍᴀɪɴ ᴄᴏᴍᴍᴀɴᴅs 💙|🧸
+
+ ${menu.main}
+ 
+> ɢʀᴏᴜᴘ ᴄᴏᴍᴍᴀɴᴅs 📢|🦊
+
+ ${menu.group}
+ 
+> ᴏᴡɴᴇʀ ᴄᴏᴍᴍᴀɴᴅs 👩‍💻|🔊
+
+ ${menu.owner}
+ 
+> ᴄᴏɴᴠᴇʀᴛ ᴄᴏᴍᴍᴀɴᴅs 👋|💙
+
+ ${menu.convert}
+ 
+> sᴇᴀʀᴄʜ ᴄᴏᴍᴍᴀɴᴅs 🔎|👩‍💻
+
+ ${menu.search}
+
+👨‍💻🎃 *CRATOR BY PODDA MODᴢ* 🎃👨‍💻
 `
-await conn.sendMessage(from,{text:madeMenu},{quoted:mek})
+await conn.sendMessage(from,{image:{url:"https://telegra.ph/file/4d69c1e11007840a8c048.jpg"},caption:madeMenu},{quoted:mek})
 
 }catch(e){
 console.log(e)
