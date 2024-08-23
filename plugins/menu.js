@@ -23,7 +23,12 @@ if (commands[i].pattern && !commands[i].dontAddCommandList) {
 menu[commands[i].category] += `.${commands[i].pattern}\n`;
  }
 }   
-
+  
+let status = `*Uptime:*  ${runtime(process.uptime())}
+*Ram usage:* ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB
+*Owner:* Ravidu Saranga & ru-x-pa bot
+`
+    
 let madeMenu = `👋 *Hi ${pushname}*
 
 > ᴅᴏᴡɴʟᴏᴀᴅ ᴄᴏᴍᴍᴀɴᴅs 👨‍💻|⬇️
