@@ -18,7 +18,7 @@ let madeSetting = `👋 *Hi ${pushname}*
 
 👨‍💻 *CRATOR BY PODDA MODᴢ* 👨‍💻
 `
-await conn.sendMessage(from,{image:{url:"https://telegra.ph/file/0aa53d084024368c3bf14.jpg"},caption:madeMenu},{quoted:mek})
+await conn.sendMessage(from,{image:{url:"https://telegra.ph/file/0aa53d084024368c3bf14.jpg"},caption:madeSetting},{quoted:mek})
 
 }catch(e){
 console.log(e)
