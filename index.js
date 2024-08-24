@@ -35,10 +35,10 @@ const express = require("express");
 const app = express();
 const port = process.env.PORT || 8000;
 
-//=============================================
+//============================================
 
 async function connectToWA() {
-//coconnect mongodb
+//============connect mongodb=================
 const connectDB = require('./lib/mongodb')
 connectDB();
 //============================================
