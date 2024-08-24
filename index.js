@@ -39,10 +39,10 @@ const port = process.env.PORT || 8000;
 
 async function connectToWA() {
 //coconnect mongodb
-const connectDB = require('.lib/mongodb')
+const connectDB = require('./lib/mongodb')
 connectDB();
 //============================================
-const {readEnv} = require('.lib/database')
+const {readEnv} = require('./lib/database')
 const config = await readEnv();
 const prefix = config.PREFIX
 //=============================================
