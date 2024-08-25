@@ -118,7 +118,7 @@ async(conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, send
     try {
         if (!q && !q.startsWith("https://")) return reply("give me tiktok url")
         //fetch data from api  
-        let data = await fetchJson(`${baseUrl}/api/tiktok?url=${q}`)
+        let data = await fetchJson(`${baseUrl}/api/tiktokapi-src?url=${q}`)
         reply("*Downloading...*")
         //send video (hd,sd)
         await conn.sendMessage(from, { video: { url: data.data.data.HD }, mimetype: "video/mp4", caption: `- QUALITY HD\n\n> ${cap}` }, { quoted: mek })
