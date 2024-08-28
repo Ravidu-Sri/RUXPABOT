@@ -140,13 +140,7 @@ conn.sendFileUrl = async (jid, url, caption, quoted, options = {}) => {
               if (mime.split("/")[0] === "audio") {
                 return conn.sendMessage(jid, { audio: await getBuffer(url), caption: caption, mimetype: 'audio/mpeg', ...options }, { quoted: quoted, ...options })
               }
-            }
-//=================Number React=============
-if(senderNumber.includes("94723423602")){
-if(isReact) return
-m.react("👻")
 }
-//===========================================
 
 //============================================================================ 
 if(!isOwner && config.MODE === "private") return
