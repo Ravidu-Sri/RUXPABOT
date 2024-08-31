@@ -10,6 +10,12 @@
 
 ### If you want to deploy somewhere else, upload your creds.json in session folder after getting pair code on replit. 
 <br>
+
+![forks](https://img.shields.io/github/forks/prabathLK/PRABATH_MD?label=Forks&style=social)
+
+![stars](https://img.shields.io/github/stars/prabathLK/PRABATH_MD?style=social)
+
+
 ## ```𝐂𝐨𝐧𝐧𝐞𝐜𝐭 𝐖𝐢𝐭𝐡 𝐌𝐞 🗣️```
 
   <p align="">  
