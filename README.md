@@ -1,4 +1,4 @@
-#RU-X-PA-MD
+# RU-X-PA-MD
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 <p align="center">
@@ -10,7 +10,8 @@
 
 ### If you want to deploy somewhere else, upload your creds.json in session folder after getting pair code on replit. 
 <br>
-##```𝐂𝐨𝐧𝐧𝐞𝐜𝐭 𝐖𝐢𝐭𝐡 𝐌𝐞 🗣️```
+## ```𝐂𝐨𝐧𝐧𝐞𝐜𝐭 𝐖𝐢𝐭𝐡 𝐌𝐞 🗣️```
+
   <p align="">  
   <a href="https://github.com/Ravidu-Sri/Photo_Url/blob/main/1725085273175.jpg">
     <img alt="secktor docs" height="150" src="https://github.com/Ravidu-Sri/Photo_Url/blob/main/1725085273175.jpg">
