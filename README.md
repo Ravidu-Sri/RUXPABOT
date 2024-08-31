@@ -13,7 +13,7 @@
 ## ```𝐂𝐨𝐧𝐧𝐞𝐜𝐭 𝐖𝐢𝐭𝐡 𝐌𝐞 🗣️```
 
   <p align="">  
-  <a href="https://github.com/Ravidu-Sri/Photo_Url/blob/main/1725085273175.jpg">
+  <a href="https://youtube.com/@podda_modz?si=Doid3NAVnlciD5_6">
     <img alt="secktor docs" height="150" src="https://github.com/Ravidu-Sri/Photo_Url/blob/main/1725085273175.jpg">
     <h1 align=""> MY YT CHANGE </h1>
   </a>
