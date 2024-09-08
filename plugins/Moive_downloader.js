@@ -1,3 +1,15 @@
+const {readEnv} = require('../lib/database')
+const {cmd , commands} = require('../command')
+
+cmd({
+    pattern: "lmk",
+    desc: "Check bot online or no.",
+    category: "main",
+    filename: __filename
+},
+async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
+try{
+ 
 const axios = require('axios');
 
 // Your API key
@@ -68,3 +80,9 @@ async function extractTorrentToMp4(torrentUrl, apiKey) {
 }
  
 extractTorrentToMp4(torrentUrl, apiKey);
+ 
+}catch(e){
+console.log(e)
+reply(`${e}`)
+}
+})
