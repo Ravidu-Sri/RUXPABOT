@@ -14,6 +14,13 @@ const config = await readEnv();
 let madeSetting = `👋 *Hi ${pushname}*
 
 ┌⁠─────────────────
+.update AUTO_READ_STATUS: true
+
+.update AUTO_READ_STATUS: false
+
+.update ALIVE_MSG: ...
+
+.update ALIVE_MAGE: img url
 └─────────────────
 
 👨‍💻 *CRATOR BY PODDA MODᴢ* 👨‍💻
