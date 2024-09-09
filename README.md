@@ -1,7 +1,7 @@
 
 # RU-X-PA-MD
 
-<img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
+<img src="https://i.imgur.com/dBaSKWF.gif" height="70" width="60%">
 <img src="https://i.imgur.com/dBaSKWF.gif" height="90" width="100%">
 
 <img src="https://telegra.ph/file/0aa53d084024368c3bf14.jpg"/> 
